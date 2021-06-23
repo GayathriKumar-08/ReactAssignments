@@ -20,6 +20,22 @@
          {
              document.getElementById("result").value = ""
          }
+       function sqrtFn()
+       {
+         document.getElementById("result").value =Math.sqrt(document.getElementById("result").value);
+       }
+       function sqrFn()
+       {
+         document.getElementById("result").value= eval(document.getElementById("result").value) * eval(document.getElementById("result").value);
+       }
+       function cubeFn()
+       {
+         document.getElementById("result").value= Math.pow(document.getElementById("result").value,3);
+       }
+       function cubertFn()
+       {
+         document.getElementById("result").value= Math.cbrt(document.getElementById("result").value);
+       }
       </script>
       <!-- for styling -->
       <style>
@@ -27,15 +43,18 @@
          margin-bottom: 10px;
          text-align:center;
          width: 210px;
-         color:green;
+         color:white;
          border: solid black 2px;
          }
   
          input[type="button"]
          {
-         background-color:blue;
+         background-color:rgb(226, 131, 131);;
          color: black;
+         font-weight: bold;
+         font-size: 16px;
          border: solid black 2px;
+         padding:10px;
          width:100%
          }
   
@@ -43,14 +62,21 @@
          {
          background-color:white;
          border: solid black 2px;
+         padding:10px;
          width:100%
          }
+         .box
+         {
+            width:600px;
+            padding:20px;
+         }
+       
       </style>
    </head>
    <!-- create table -->
    <body>
-    
-      <table>
+    <div>
+      <table class="box">
          <tr>
             <td colspan="3"><input type="text" id="result"/></td>
             <!-- clr() function will call clr to clear all value -->
@@ -63,12 +89,14 @@
             <td><input type="button" value="2" onclick="dis('2')"/> </td>
             <td><input type="button" value="3" onclick="dis('3')"/> </td>
             <td><input type="button" value="/" onclick="dis('/')"/> </td>
+         
          </tr>
          <tr>
             <td><input type="button" value="4" onclick="dis('4')"/> </td>
             <td><input type="button" value="5" onclick="dis('5')"/> </td>
             <td><input type="button" value="6" onclick="dis('6')"/> </td>
             <td><input type="button" value="-" onclick="dis('-')"/> </td>
+            
          </tr>
          <tr>
             <td><input type="button" value="7" onclick="dis('7')"/> </td>
@@ -83,6 +111,13 @@
             <td><input type="button" value="=" onclick="solve()"/> </td>
             <td><input type="button" value="*" onclick="dis('*')"/> </td>
          </tr>
+         <tr>
+            <td><input type="button" value="sqrt" onclick="sqrtFn('sqrt')"/></td>
+            <td><input type="button" value="sqr" onclick="sqrFn('sqr')"/></td>
+            <td><input type="button" value="cube" onclick="cubeFn('cube')"/></td>
+            <td><input type="button" value="cubert" onclick="cubertFn('cubert')"/></td>
+         </tr>
       </table>
+      </div>
    </body>
 </html>   
