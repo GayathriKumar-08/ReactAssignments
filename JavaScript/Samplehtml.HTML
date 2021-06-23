@@ -1,0 +1,38 @@
+<!--1--->
+<html>
+
+<head>
+    <meta charset=”UTF-8″>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <link rel=”stylesheet” type=”text/css” href=”css/styles.css”>
+    <style>
+        #para
+        {
+            color:blue;
+        }
+        #dt
+        {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Header tag</h1>
+    <p class="par"></p>
+    <p id="para"></p>
+    <p id="dt"></p>
+    <button onclick="myFun()">Click Me</button>
+    <script>
+        function myFun() {
+            document.getElementById("para").innerHTML = "hello this javascript example";
+            console.log(document.getElementById("para").innerHTML = "hello this javascript example");
+            document.getElementsByClassName("par")[0].innerHTML = "This is sample exercise";
+            console.log(  document.getElementsByClassName("par")[0].innerHTML = "This is sample exercise");
+            document.getElementById("dt").innerHTML=new Date();
+            console.log( document.getElementById("dt").innerHTML=new Date());
+        }
+    </script>
+</body>
+
+</html>
