@@ -1,0 +1,5 @@
+let h="hello";
+function display()
+{
+ console.log(h);
+ }
