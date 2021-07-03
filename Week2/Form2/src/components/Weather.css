@@ -1,0 +1,22 @@
+.bgcolor
+{
+    width:900px;
+    height: 650px;
+    border:1px solid black;
+    margin-top: 30px;
+    margin-left: 300px;
+   color: brown;
+}
+.btn
+{
+  
+   background-color:rgb(13, 13, 80);
+   width: 150px;
+   border-radius: 5px;
+   color:white;
+}
+.propic
+{
+    width: 200px;
+    height: 200px;
+}
