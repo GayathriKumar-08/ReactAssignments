@@ -1,0 +1,52 @@
+.box1
+{
+    margin-top:80px;
+    margin-left: 450px;
+    width:600px;
+    padding: 20px;
+    border: 2px solid rgb(28, 27, 119);
+   
+}
+table{
+    padding:20px;
+    margin-left: 50px;
+}
+tr{
+    padding :20px;
+}
+.btn
+{
+ margin-left: 40px;
+ background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:10px;
+ border-radius: 5px;
+}
+.btn1
+{
+ background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:6px;
+ border-radius: 5px;
+}
+.navbar
+{
+    color:white;
+    height:50px;
+    background-color: rgb(28, 27, 119);
+    padding: 20px;
+}
+.box2
+{
+    border: 2px solid rgb(28, 27, 119);
+    padding:20px;
+    margin: 20px;
+    margin-left: 400px;
+    width:700px;
+}
+.drop
+{
+    width: 150px;
+    height: 25px;
+
+}
