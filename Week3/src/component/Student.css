@@ -1,0 +1,69 @@
+.box1
+{
+    margin-top: 30px;
+    margin-left: 300px;
+    width:1000px;
+    padding: 20px;
+    border: 2px solid rgb(28, 27, 119);
+}
+th{
+    padding:20px;
+    /* border: 1px solid grey; */
+}
+table
+{
+    padding:20px;
+}
+tr{
+    padding :20px;
+}
+
+.btn
+{
+ margin-left:70px;
+  background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:10px;
+ border-radius: 5px;
+
+}
+.btn1
+{
+ background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:6px;
+ border-radius: 5px;
+}
+.navbar
+{
+    color:white;
+    height:50px;
+    background-color: rgb(28, 27, 119);
+    padding: 20px;
+}
+.box2
+{
+    border: 2px solid rgb(28, 27, 119);
+    padding:20px;
+    margin: 20px;
+    margin-left: 450px;
+    width:700px;
+    text-align: center;
+}
+.drop
+{
+    width: 150px;
+    height: 25px;
+
+}
+.propic
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.msg
+{
+    margin-left: 1200px;
+}
