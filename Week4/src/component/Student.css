@@ -1,0 +1,103 @@
+.box1
+{
+    margin-top: 30px;
+    margin-left: 150px;
+    width:1200px;
+    padding: 20px;
+    border: 2px solid rgb(28, 27, 119);
+    background-color: rgb(192, 220, 238);
+}
+th{
+    padding:20px;
+    /* border: 1px solid grey; */
+}
+table
+{
+    padding:20px;
+}
+tr{
+    padding :20px;
+}
+
+.btn
+{
+ margin-left:70px;
+  background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:10px;
+ border-radius: 5px;
+
+}
+.btn1
+{
+ background-color:rgb(28, 27, 119); 
+ color:white;
+ padding:6px;
+ border-radius: 5px;
+}
+.navbar123
+{
+    color:white;
+    width:1150px;
+    height:50px;
+    background-color: rgb(28, 27, 119);
+    padding: 20px;
+}
+.navbar1234
+{
+    color:white;
+    width:630px;
+    height:50px;
+    background-color: rgb(28, 27, 119);
+    padding: 20px;
+}
+.box2
+{
+    border: 2px solid rgb(28, 27, 119);
+    padding:25px;
+    margin: 20px;
+    margin-left: 450px;
+    width:670px;
+    text-align: center;
+    background-color: rgb(192, 220, 238);
+}
+.drop
+{
+    width: 150px;
+    height: 25px;
+
+}
+.propic
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+/* .msg
+{
+    margin-left: 1200px;
+} */
+tr,td{
+    text-align: center;
+}
+.inpt
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding:6px;
+}
+.button1{
+    padding: 15px;
+    background-color:rgb(28, 27, 119) ;
+    color:white;
+    border-radius: 6px;
+    margin-left:1250px;
+}
+.button1:hover{
+    padding: 15px;
+    background-color:rgb(34, 224, 113) ;
+    color:white;
+    border-radius: 6px;
+    border:1px solid rgb(34, 224, 113);
+}

@@ -1,0 +1,74 @@
+{
+  "Studentdata": [
+    {
+      "studroll": "101",
+      "studname": "vaishu",
+      "science": "95",
+      "maths": "98",
+      "social": "92",
+      "english": "97",
+      "lang": "96",
+      "langdrop": "2",
+      "studresult": "Fail",
+      "total": 478,
+      "id": 1
+    },
+    {
+      "studroll": "102",
+      "studname": "suba",
+      "science": "72",
+      "maths": "74",
+      "social": "73",
+      "english": "95",
+      "lang": "87",
+      "langdrop": "4",
+      "studresult": "Pass",
+      "total": 401,
+      "id": 2
+    },
+    {
+      "studroll": "112",
+      "studname": "abc",
+      "science": "97",
+      "maths": "87",
+      "social": "98",
+      "english": "97",
+      "lang": "92",
+      "langdrop": "4",
+      "studresult": "Pass",
+      "total": 471,
+      "id": 3
+    },
+    {
+      "studroll": "115",
+      "studname": " gayu",
+      "science": "84",
+      "maths": "85",
+      "social": "86",
+      "english": "87",
+      "lang": "98",
+      "langdrop": "2",
+      "studresult": "Fail",
+      "total": 440,
+      "id": 4
+    }
+  ],
+  "langrop": [
+    {
+      "id": 1,
+      "name": "Tamil"
+    },
+    {
+      "id": 2,
+      "name": "Hindi"
+    },
+    {
+      "id": 3,
+      "name": "Sanskrit"
+    },
+    {
+      "id": 4,
+      "name": "French"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.button12
+{
+  background-color: coral;
+  color:white;
+  padding:5px;
+}
+.button12:hover
+{
+  background-color:rgb(34, 224, 113) ;
+  color:white;
+  padding:5px;
+}
+
+.button123
+{
+  background-color: coral;
+  color:white;
+  padding:6px;
+}
+.button123:hover
+{
+  background-color:rgb(207, 23, 69) ;
+  color:white;
+  padding:6px;
+}
