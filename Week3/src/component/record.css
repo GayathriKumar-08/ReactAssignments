@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .box12
 {
     margin-top: 30px;
     margin-left: 100px;
     padding: 20px;
     /* border: 2px solid rgb(28, 27, 119); */
+=======
+.box12
+{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 20px;
+    /* border: 2px solid rgb(28, 27, 119); */
+>>>>>>> 1e464d84ab51082831912235343b146c5d08629f
 }
