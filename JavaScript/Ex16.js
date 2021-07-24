@@ -1,0 +1,18 @@
+let fruits=["apple","mango","pineapple","grapes"];
+fruits[2]="kiwi";
+console.log(fruits);
+console.log("----------------------------------------------------------");
+fruits.push("strawberry");
+console.log(fruits);
+console.log("----------------------------------------------------------");
+fruits[0]="watermelon";
+console.log(fruits);
+console.log("----------------------------------------------------------");
+fruits.pop();
+console.log(fruits);
+console.log("----------------------------------------------------------");
+fruits.pop();
+console.log(fruits);
+fruits.push("apple");
+console.log("----------------------------------------------------------");
+console.log(fruits);
